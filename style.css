@@ -88,13 +88,17 @@ html,body{
     overflow: hidden;
 }
 
+@font-face {
+    font-family: 'kajiro';
+    src:url(KAJIRO\ BOLD.TTF);
+}
+
 #heroleft .elem h1{
     position: absolute;
     top: 100%;
     left: 0;
     line-height: .9;
     font-family: 'kajiro';
-    src:url(KAJIRO\ BOLD.TTF);
     color: white;
     font-weight: 100;
     font-size:11vw;
